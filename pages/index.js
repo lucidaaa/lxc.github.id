@@ -12,7 +12,7 @@ export default function Home() {
     'This is My Portfolio.',
     'I Hope You Like It!'],
     loop: true,
-    delaySpeed: 3000,
+    delaySpeed: 1500,
   })
 
   return (
