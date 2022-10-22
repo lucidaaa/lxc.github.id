@@ -11,7 +11,7 @@ export default function Home() {
     'This is My Portfolio.',
     'I Hope You Like It!'],
     loop: true,
-    delaySpeed: 1500,
+    delaySpeed: 3000,
   })
 
   return (
@@ -25,7 +25,7 @@ export default function Home() {
       <main className=' bg-white px-10 font-poppins'>
         <section className=' min-h-screen'>
           <NavBar/>
-          <h1 className=' text-3xl md:text-4xl lg:text-5xl text-center px-20 py-60 max-h-80'>
+          <h1 className=' text-5xl text-center p-20 py-60'>
             <span>{text}</span>
             < Cursor />
           </h1>
