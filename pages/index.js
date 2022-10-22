@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import NavBar from '../pages/navbar.'
+import NavBar from '../pages/navbar'
+import FootNav from '../pages/footer'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Home() {
 
@@ -12,7 +11,7 @@ export default function Home() {
     'This is My Portfolio.',
     'I Hope You Like It!'],
     loop: true,
-    delaySpeed: 3000,
+    delaySpeed: 1500,
   })
 
   return (
@@ -26,11 +25,11 @@ export default function Home() {
       <main className=' bg-white px-10 font-poppins'>
         <section className=' min-h-screen'>
           <NavBar/>
-          <h1 className=' text-5xl text-center p-20 py-60'>
+          <h1 className=' text-3xl md:text-4xl lg:text-5xl text-center px-20 py-60 max-h-80'>
             <span>{text}</span>
             < Cursor />
           </h1>
-
+          <FootNav/>
         </section>
       </main>
     </div>
