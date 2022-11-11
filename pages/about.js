@@ -10,9 +10,12 @@ export default function about() {
       <NavBar/>
       <div className=' flex justify-center py-30 '>
         {/* <Image src={headPhoto} /> */}
-        <p className=' text-left'>
+        {/* <p className=' text-left'>
           /About Page is in Progress...
-        </p>
+        </p> */}
+        <h1 className=' text-3xl md:text-4xl lg:text-5xl text-center px-20 py-60 max-h-80'>
+          /About Page is in Progress...
+        </h1>
         
       </div>
       <FootNav/>

@@ -7,22 +7,22 @@ export default function Footer() {
             <ul className=' md:flex md:justify-between md:pt-40'>
               <li className=' py-3 hover:underline decoration-2'>
                 <Link href="/">
-                <a>Home</a>
+                Home
                 </Link>
               </li>
               <li className=' py-3 hover:underline decoration-2'>
                 <Link href="/about">
-                  <a>About</a>
+                  About
                 </Link>
               </li>
               <li className=' py-3 hover:underline decoration-2'>
                 <Link href="/projects">
-                  <a>Projects</a>
+                  Projects
                 </Link>
               </li>
               <li className=' py-3 hover:underline decoration-2'>
                 <Link href="/contact">
-                  <a>Contact</a>
+                  Contact
                 </Link>
               </li>
             </ul>
