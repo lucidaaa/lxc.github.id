@@ -9,7 +9,7 @@ export default function about() {
     <section className=' bg-white px-10 font-poppins min-h-screen'>
       <NavBar/>
       <div className=' flex justify-center py-30 '>
-        <Image src={headPhoto} />
+        {/* <Image src={headPhoto} /> */}
         <p className=' text-left'>
           /About Page is in Progress...
         </p>
