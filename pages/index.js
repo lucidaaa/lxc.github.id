@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import NavBar from '../pages/navbar'
-import FootNav from '../pages/footer'
+import NavBar from './navbar'
+import FootNav from './footer'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 export default function Home() {
